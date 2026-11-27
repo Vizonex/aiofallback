@@ -2,7 +2,7 @@ import asyncio
 
 import pytest
 
-from aiofallback import get_loop_factory, EventLoopNotFoundError
+from aiofallback import EventLoopNotFoundError, get_loop_factory
 
 
 @pytest.mark.parametrize(

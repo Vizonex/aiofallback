@@ -24,3 +24,8 @@ classifiers = [
 [build-system]
 requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+pytest = [
+    "pytest>=9.2.0",
+]
